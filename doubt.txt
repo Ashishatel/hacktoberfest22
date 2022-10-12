@@ -1,0 +1,37 @@
+#include <iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+
+  vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
+      vector<pair<int,int>> m;
+        for(int i=0;i<mat.size();i++){
+            int x=lower_bound(mat[i].begin(),mat[i].end(),0)-mat[i].begin();
+            cout<<x<<" ";
+            m.push_back(make_pair(x,i));
+        }
+        sort(m.begin(), m.end());
+                 
+    vector<int> v;
+                int s=0;        
+        for(int i=0;i<m.size();i++){
+            v.push_back(m[i].second);
+            s++;
+            if(s==k)
+                break;
+        }
+            return v;
+    }
+int main() {
+ vector<vector<int>> mat = 
+{{1,1,0,0,0},
+ {1,1,1,1,0},
+ {1,0,0,0,0},
+ {1,1,0,0,0},
+ {1,1,1,1,1}};
+int k = 3;
+ vector<int>c= kWeakestRows(mat,k);
+ for(int i=0;i<c.size();i++)
+// cout<<c[i]<<" ";
+	return 0;
+}

@@ -1,7 +1,7 @@
 ##  `Steps To Generate PR(Pull Request)`
 
 - (Star ⭐ & Fork 🍽️) this repository.
-- Follow [Ashish](https://github.com/ashishatel/) get it merged fast.
+- Follow [Ashutosh Kumar Singh](https://github.com/ashutosh-19617-kumar) get it merged fast.
 # Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
