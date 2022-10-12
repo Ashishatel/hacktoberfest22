@@ -1,0 +1,98 @@
+select{
+    background-color: var(--extra-clr-light) !important;
+    color: var(--heading-clr-light) !important;
+}
+select option{
+    background-color: var(--heading-clr-light);
+    color: var(--bg-clr-dark); 
+}
+/* db */
+
+/* db */
+
+a#submit { z-index: 1; }
+#contest-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-content: center;
+    justify-content: space-around;
+}
+.contest-main-header{
+    color :var(--heading-clr-light);
+    margin: 50px auto;
+    text-align: center;
+}
+
+.contest {
+  /* background: var(--extra-clr-light); */
+  border: 1px solid var(--medium-text-clr-light);
+  padding: 15px 20px;
+  box-shadow: 10px 10px 20px 1px var(--shadow-clr-extra-blue);
+  border-radius: 10px;
+  width: 340px;
+  position: relative;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  transition: 0.8s;
+}
+.contest > p{
+    color: var(--heading-clr-light);
+    opacity: 0.8;
+}
+.contest > a{
+    text-decoration: none;
+}
+.contest-header {
+    color: var(--heading-clr-light);
+  letter-spacing: 1px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contest:hover{
+    transform:scale(1.15);
+    z-index: 2;
+    box-shadow: 0px 1px 10px 10px var(--shadow-clr-extra-blue);
+}
+.contest-link{
+    padding: 0.8rem; 
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: var(--heading-clr-light);
+    background: linear-gradient(45deg, var(--bg-clr-light) , var(--bg-clr-medium));
+    transition: all 0.3s ease-in-out;
+    font-weight: 700;
+    width: 200px;
+    display: flex;
+    margin: auto;
+
+    margin-top: 0.8rem;
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contest-link:hover{
+    font-weight: 700;
+}
+.contest-link span:first-child {
+    margin-left: 5%;
+}
+.contest-link span:last-child {
+    margin-left: 15%;
+    transition: margin-left 0.5s ease;
+}
+
+.contest-link:hover span:last-child {
+    margin-left: 20%;
+}
+
+.contest-container{
+    margin: 50px 0px;
+    padding:0px 10%;
+}
