@@ -1,16 +1,16 @@
 # **Programming Questions**
 
-<h3>programming leetcode question</h3>
+<h3>This is source code of frontend of my college website made using HTML, CSS, Javascript</h3>
 
 <div align="center">
-<h1> programming code </h1>
+<h1> College Website </h1>
 
 <br/>
 
 </div>
 
 
-- Anyone can add any type of <b>valid cpp code</b> web page depends on you.
+- Anyone can add any type of <b>valid html-css</b> web page depends on you.
 
 - Do not just <b>re-edit</b> the file or make <b>some small changes</b> this kind of PRs will not be accepted.
 
@@ -23,7 +23,7 @@
 ##  `Steps To Generate PR(Pull Request)`
 
 - (Star ⭐ & Fork 🍽️) this repository.
-- Follow [Ashish Patel](https://www.github.com/ashishatel) get it merged fast.
+- Follow [Ashutosh Kumar Singh](https://github.com/ashutosh-19617-kumar) get it merged fast.
 # Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
@@ -113,9 +113,9 @@ We're happy to merge valid pull requests to this repository !
 To get approval of the pull request much quicker (`Follow Me`)🚀
 '''
 ```
-<a align="center" href="https://github.com/ashishatel"><kbd><img src="https://avatars3.githubusercontent.com/ashishatel?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Ashish Patel</b></sub></a><br />
+<a align="center" href="https://github.com/ashutosh-19617-kumar"><br /><sub><b>Ashutosh Kumar Singh</b></sub></a><br />
 
-`For doubts contact mail@manish.me`
+`For doubts contact mail@ashutosh.me`
 ### Happy coding fellas!!💕✨
 
 
