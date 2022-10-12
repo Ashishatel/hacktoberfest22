@@ -1,24 +1,28 @@
-#include<iostream>
 #include<bits/stdc++.h>
+// #include<unordered_set>
 using namespace std;
-bool chkpair(int a[],int n,int x){
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if((a[i]+a[j])==x)
-                 return 1;
+int main()
+{   int sum;
+    cin>>sum;
+    vector<int> a={2,2,4,5,6,1,77,88,98,54,33},result;
+    unordered_set<int> b;
+    for(int i=0;i<a.size();i++)
+    {
+        int x=sum-a[i];
+        if(b.find(x)!=b.end())
+        {
+            result.push_back(x);
+            result.push_back(a[i]);
 
         }
-    }
-    return 0;
-}
-int main(){
-    int a[]={1,2,3,0,-1,-3,1};
-    int x=-2;
-    int size=sizeof(a)/sizeof(a[0]);
-    if(chkpair(a,size,x))
-       cout<<"valid pair exist";
-    else 
-       cout<<"valid pair not exit";
-    return 0;
+        b.insert(a[i]);
 
+    }
+    if(result.size()==0)
+    cout<<"no such pairs";
+    else
+    cout<<result[0]<<" "<<result[1];
+    // for(int i=0;i<result.size();i++)
+    // cout<<"\n"<<result[i]<<" ";
+    return 0;
 }
